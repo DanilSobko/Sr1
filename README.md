@@ -23,20 +23,21 @@
 ---
 
 ## Структура проєкту
-E:\Univer\Java\Sr1
-├── src/
-│ ├── Command.java
-│ ├── Light.java
-│ ├── TV.java
-│ ├── LightOnCommand.java
-│ ├── LightOffCommand.java
-│ ├── TVOnCommand.java
-│ ├── TVOffCommand.java
-│ ├── RemoteControl.java
-│ └── Main.java
-├── bin/
-├── .gitignore
-└── README.md
+
+📁 E:\Univer\Java\Sr1
+├─ 📁 src
+│ ├─ 📄 Command.java
+│ ├─ 📄 Light.java
+│ ├─ 📄 TV.java
+│ ├─ 📄 LightOnCommand.java
+│ ├─ 📄 LightOffCommand.java
+│ ├─ 📄 TVOnCommand.java
+│ ├─ 📄 TVOffCommand.java
+│ ├─ 📄 RemoteControl.java
+│ └─ 📄 Main.java
+├─ 📁 bin
+├─ 📄 .gitignore
+└─ 📄 README.md
 
 yaml
 Копіювати код
