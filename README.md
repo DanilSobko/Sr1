@@ -1,12 +1,14 @@
-# Command Pattern (Патерн "Команда")
+# 🎮 Command Pattern (Патерн "Команда")
 
-## Зміст
+---
+
+## 📋 Зміст
 - [Опис проєкту](#опис-проєкту)
 - [Структура проєкту](#структура-проєкту)
 - [Запуск проєкту](#запуск-проєкту)
 - [Очікуваний результат](#очікуваний-результат)
 - [Використані принципи](#використані-принципи)
-- [Файл gitignore](#файл-gitignore)
+- [Файл .gitignore](#файл-gitignore)
 - [Автор](#автор)
 
 ---
@@ -23,21 +25,20 @@
 ---
 
 ## Структура проєкту
-
-📁 E:\Univer\Java\Sr1
-├─ 📁 src
-│  ├─ 📄 Command.java
-│  ├─ 📄 Light.java
-│  ├─ 📄 TV.java
-│  ├─ 📄 LightOnCommand.java
-│  ├─ 📄 LightOffCommand.java
-│  ├─ 📄 TVOnCommand.java
-│  ├─ 📄 TVOffCommand.java
-│  ├─ 📄 RemoteControl.java
-│  └─ 📄 Main.java
-├─ 📁 bin
-├─ 📄 .gitignore
-└─ 📄 README.md
+📁 E:\Univer\Java\Sr1  
+├─ 📁 src  
+│  ├─ 📄 Command.java  
+│  ├─ 📄 Light.java  
+│  ├─ 📄 TV.java  
+│  ├─ 📄 LightOnCommand.java  
+│  ├─ 📄 LightOffCommand.java  
+│  ├─ 📄 TVOnCommand.java  
+│  ├─ 📄 TVOffCommand.java  
+│  ├─ 📄 RemoteControl.java  
+│  └─ 📄 Main.java  
+├─ 📁 bin  
+├─ 📄 .gitignore  
+└─ 📄 README.md  
 
 ---
 
@@ -81,7 +82,6 @@ yaml
 ---
 
 ## Використані принципи
-
 - **Інкапсуляція дій:** кожна команда (`LightOnCommand`, `TVOffCommand`) окремо інкапсулює дію.  
 - **Розділення відповідальності:**  
 
@@ -95,7 +95,7 @@ yaml
 
 ---
 
-## Файл gitignore
+## Файл .gitignore
 /bin/
 /out/
 /*.class
@@ -109,7 +109,6 @@ yaml
 ---
 
 ## Автор
-
 - Ім’я студента: Данило  
 - Група: ТЦР-32  
 - Дата виконання: 13.10.2025
