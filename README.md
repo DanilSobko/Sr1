@@ -2,19 +2,19 @@
 
 ---
 
-## Зміст
-- [Опис проєкту](#project-description)  
-- [Структура проєкту](#project-structure)  
-- [Запуск проєкту](#project-run)  
-- [Очікуваний результат](#expected-output)  
-- [Використані принципи](#principles-used)  
-- [Файл gitignore](#gitignore-file)  
-- [Автор](#author)  
+## Table of Contents
+- [Project Description](#project-description)
+- [Project Structure](#project-structure)
+- [Run Instructions](#run-instructions)
+- [Expected Output](#expected-output)
+- [Principles Used](#principles-used)
+- [Gitignore File](#gitignore-file)
+- [Author](#author)
 
 ---
 
 <a name="project-description"></a>
-## Опис проєкту
+## Project Description
 Цей проєкт демонструє реалізацію шаблону проєктування **Command (Команда)**.  
 Мета — створити простий **пульт керування**, який може **вмикати** та **вимикати** різні пристрої, наприклад:
 
@@ -26,7 +26,7 @@
 ---
 
 <a name="project-structure"></a>
-## Структура проєкту
+## Project Structure
 E:\Univer\Java\Sr1
 │
 ├── src/
@@ -49,8 +49,8 @@ yaml
 
 ---
 
-<a name="project-run"></a>
-## Запуск проєкту
+<a name="run-instructions"></a>
+## Run Instructions
 
 1. Відкрити **Command Prompt (CMD)**  
 2. Перейти до теки проєкту:
@@ -69,7 +69,7 @@ cmd
 java -cp bin Main
 <a name="expected-output"></a>
 
-Очікуваний результат
+Expected Output
 Копіювати код
 Світло увімкнено
 Світло вимкнено
@@ -80,7 +80,7 @@ java -cp bin Main
 Телевізор увімкнено
 <a name="principles-used"></a>
 
-Використані принципи
+Principles Used
 Інкапсуляція дій: кожна команда (LightOnCommand, TVOffCommand) окремо інкапсулює дію.
 
 Розділення відповідальності:
@@ -94,7 +94,7 @@ Invoker	Ініціює виконання команд (RemoteControl)
 
 <a name="gitignore-file"></a>
 
-Файл gitignore
+Gitignore File
 bash
 Копіювати код
 /bin/
@@ -105,9 +105,12 @@ bash
 /.vscode/
 <a name="author"></a>
 
-Автор
+Author
 Ім’я студента: Данило
 
 Група: ТЦР-32
 
 Дата виконання: 13.10.2025
+
+markdown
+Копіювати код
