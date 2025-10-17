@@ -14,8 +14,8 @@
 ---
 
 <a name="project-description"></a>
-## Project Description
-Цей проєкт демонструє реалізацію шаблону проєктування **Command (Команда)**.  
+## Опис проєкту
+Цей проєкт демонструє реалізацію шаблону **Command (Команда)**.  
 Мета — створити простий **пульт керування**, який може **вмикати** та **вимикати** різні пристрої, наприклад:
 
 - Світло  
@@ -26,21 +26,21 @@
 ---
 
 <a name="project-structure"></a>
-## Project Structure
+## Структура проєкту
 E:\Univer\Java\Sr1
 │
 ├── src/
-│ ├── Command.java # Інтерфейс команд
-│ ├── Light.java # Реалізація пристрою Light
-│ ├── TV.java # Реалізація пристрою TV
-│ ├── LightOnCommand.java # Команда увімкнення світла
-│ ├── LightOffCommand.java # Команда вимкнення світла
-│ ├── TVOnCommand.java # Команда увімкнення телевізора
-│ ├── TVOffCommand.java # Команда вимкнення телевізора
-│ ├── RemoteControl.java # Ініціатор команд (Invoker)
-│ └── Main.java # Точка входу програми
+│ ├── Command.java
+│ ├── Light.java
+│ ├── TV.java
+│ ├── LightOnCommand.java
+│ ├── LightOffCommand.java
+│ ├── TVOnCommand.java
+│ ├── TVOffCommand.java
+│ ├── RemoteControl.java
+│ └── Main.java
 │
-├── bin/ # Скомпільовані файли (.class)
+├── bin/
 ├── .gitignore
 └── README.md
 
@@ -50,8 +50,7 @@ yaml
 ---
 
 <a name="run-instructions"></a>
-## Run Instructions
-
+## Інструкція з запуску
 1. Відкрити **Command Prompt (CMD)**  
 2. Перейти до теки проєкту:
 
@@ -59,7 +58,7 @@ yaml
 cd /d E:\Univer\Java\Sr1
 Скомпілювати всі Java-файли:
 
-cmd
+c
 Копіювати код
 javac -d bin src\*.java
 Запустити програму:
@@ -69,7 +68,7 @@ cmd
 java -cp bin Main
 <a name="expected-output"></a>
 
-Expected Output
+Очікуваний результат
 Копіювати код
 Світло увімкнено
 Світло вимкнено
@@ -80,7 +79,7 @@ Expected Output
 Телевізор увімкнено
 <a name="principles-used"></a>
 
-Principles Used
+Використані принципи
 Інкапсуляція дій: кожна команда (LightOnCommand, TVOffCommand) окремо інкапсулює дію.
 
 Розділення відповідальності:
@@ -94,7 +93,7 @@ Invoker	Ініціює виконання команд (RemoteControl)
 
 <a name="gitignore-file"></a>
 
-Gitignore File
+Файл .gitignore
 bash
 Копіювати код
 /bin/
@@ -105,12 +104,9 @@ bash
 /.vscode/
 <a name="author"></a>
 
-Author
+Автор
 Ім’я студента: Данило
 
 Група: ТЦР-32
 
 Дата виконання: 13.10.2025
-
-markdown
-Копіювати код
